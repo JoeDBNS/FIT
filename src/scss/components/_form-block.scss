@@ -1,12 +1,7 @@
 .form-module {
     form {
-        // background: white;
-        // box-shadow: 0 1px 3px #c1c1c1;
-        // border-radius: 4px;
-        // padding: 32px 40px;
-        margin: 40px auto 30px auto;
+        margin: 40px auto 80px auto;
         .form-header {
-            // margin-bottom: 70px;
             text-align: center;
             color: $brand;
         }
@@ -24,8 +19,6 @@
                 }
                 .header-divider {
                     height: 3px;
-                    // background-color: $brand-gray-500;
-                    // background-color: #7c8a9c;
                     background-color: $brand;
                     top: 50%;
                     z-index: 2;
