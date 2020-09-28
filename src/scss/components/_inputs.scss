@@ -47,6 +47,7 @@ select {
 input[type="file"] {
     @extend input[type="text"];
     padding: 0.3rem 0.25rem;
+    height: 40px;
 }
 input[type="color"] {
     @extend input[type="text"];
