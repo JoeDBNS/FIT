@@ -1,0 +1,102 @@
+label,
+legend {
+    display: block;
+    margin: 12px 0 1px 2px;
+    font-size: .95rem;
+    color: #616161;
+}
+
+input[type="text"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="email"],
+input[type="password"],
+input[type="url"],
+input[type="time"],
+input[type="date"],
+input[type="datetime-local"] {
+    background-color: #fff;
+    width: 100%;
+    min-width: 110px;
+    padding: 4px 0 4px 10px;
+    height: 32px;
+    font-size: .875rem;
+    color: #4b4b4b;
+    border: 1px solid;
+    border-color: #d4d4d4;
+    border-radius: 4px;
+    transition: linear .1s all;
+    &:hover {
+        border-color: #cacaca;
+    }
+    &:focus {
+        outline: none;
+        box-shadow: 0 0 2px #788cff inset;
+    }
+}
+textarea {
+    @extend input[type="text"];
+    resize: vertical;
+    min-height: 7rem;
+}
+select {
+    @extend input[type="text"];
+    padding: 0.425rem 0.5rem;
+}
+input[type="file"] {
+    @extend input[type="text"];
+    padding: 0.3rem 0.25rem;
+}
+input[type="color"] {
+    @extend input[type="text"];
+    height: 2.5rem;
+}
+input[type="range"] {
+    width: 100%;
+    padding: 0.35rem 0;
+}
+input[type="checkbox"],
+input[type="radio"] {
+    width: 0;
+    height: 0;
+    visibility: visible;
+    opacity: 0;
+    &:checked {
+        + label > .label-box-display > svg {
+            opacity: 1;
+        }
+    }
+    &:focus {
+        + label {
+            box-shadow: 0 0 4px $brand;
+        }
+    }
+}
+input[type="checkbox"] {
+    + label > .label-box-display {
+        border-radius: $radius-input;
+    }
+}
+input[type="radio"] {
+    + label > .label-box-display {
+        border-radius: $radius-input-radio;
+    }
+}
+.input-set {
+    margin: 14px 0;
+}
+.label-box-display {
+    background-color: $white;
+    display: inline-block;
+    border: 1px solid $gray;
+    user-select: none;
+    cursor: pointer;
+    svg {
+        opacity: 0;
+        transition: linear 0.05s all;
+    }
+}
+.label-text {
+    margin-left: 0.25rem;
+}

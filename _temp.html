@@ -1,0 +1,230 @@
+temp content holder for designs from design-lab
+
+
+
+<style>
+    #design-content-x0028.design-content {
+        padding: 40px 20px;
+        background-color: #F5F5F5;
+    }
+    #design-content-x0028 .form {
+        color: black;
+        /* font-family: Helvetica, Arial, sans-serif; */
+        font-family: monospace;
+        outline: none;
+    }
+    #design-content-x0028 .form .form-header {
+        font-size: 1.2rem;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    #design-content-x0028 .form .form-label {
+        display: block;
+        margin: 12px 0 1px 2px;
+        font-size: .75rem;
+        color: #707070;
+    }
+    #design-content-x0028 .form .form-input {
+        background-color: #fff;
+        width: 100%;
+        min-width: 110px;
+        padding: 4px 0 4px 10px;
+        height: 32px;
+        font-size: .875rem;
+        color: #4b4b4b;
+        border: 1px solid;
+        border-color: #e1e1e1;
+        border-radius: 4px;
+        transition: linear .1s all;
+    }
+    #design-content-x0028 .form .form-input:hover {
+        border-color: #cacaca;
+    }
+    #design-content-x0028 .form .form-input:focus {
+        outline: none;
+        box-shadow: 0 0 2px #788cff inset;
+    }
+    #design-content-x0028 .button {
+        width: 100px;
+        margin: 0 16px;
+        background-color: white;
+        border: 1px solid #e1e1e1;
+        border-radius: 3px;
+        color: black;
+        cursor: pointer;
+        font-family: monospace, sans-serif;
+        outline: none;
+    }
+</style>
+
+<div class="row design" data-design-code="x0028">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-2 col-12 text-lg-right text-left design-about">
+                <div class="design-about-title" title="x0028">placeholder</div>
+                <div class="design-about-text">
+                    placeholder
+                    <br>
+                    From: <a href="https://commerce.adobe.com/checkout/payment/?items%5B0%5D%5Bid%5D=9F37B881F0FC2E24ED5D7DC5E7D5E57A&items%5B0%5D%5Bq%5D=1&items%5B0%5D%5Bcs%5D=0&cli=mini_plans&co=US&lang=en">adobe</a>
+                </div>
+                <div class="design-about-tags">
+                    Tags:
+                    <br>
+                    <span class="design-about-tags-values">placeholder</span>
+                </div>
+            </div>
+
+            <div id="design-content-x0028" class="col-lg-10 col-12 design-content">
+                <div class="container-fluid">
+                    <form class="form row justify-content-center">
+                        <div class="form-header col-12">
+                            Information Collection Form
+                        </div>
+
+                        <div class="col-6">
+                            <label for="x0028-input-name-first" class="form-label">First Name</label>
+                            <input type="text" id="x0028-input-name-first" class="form-input">
+                        </div>
+
+                        <div class="col-6">
+                            <label for="x0028-input-name-last" class="form-label">Last Name</label>
+                            <input type="text" id="x0028-input-name-last" class="form-input">
+                        </div>
+
+                        <div class="col-12">
+                            <label for="x0028-input-street" class="form-label">Street Address</label>
+                            <input type="text" id="x0028-input-street" class="form-input">
+                        </div>
+
+                        <div class="col-6">
+                            <label for="x0028-input-state" class="form-label">State</label>
+                            <select id="x0028-input-state" class="form-input">
+                                <option value=""></option>
+                                <option value="1">Florida</option>
+                                <option value="2">Michigan</option>
+                                <option value="3">Texas</option>
+                            </select>
+                        </div>
+
+                        <div class="col-6">
+                            <label for="x0028-input-zipcode" class="form-label">Zip Code</label>
+                            <input type="text" id="x0028-input-zipcode" class="form-input">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    //
+</script>
+
+
+
+
+
+
+
+
+
+<style>
+    #design-content-x0039.design-content {
+        padding: 60px 20px;
+        background-color: #272727;
+    }
+    #design-content-x0039 .item {
+        position: relative;
+        height: 100px;
+        width: 140px;
+        margin: 20px;
+        border-radius: 10px;
+        background-color: #3c3c3c;
+        transition: all 0.4s ease;
+    }
+    #design-content-x0039 .item:hover {
+        background-color: #333333;
+        border-radius: 2px 10px;
+    }
+    #design-content-x0039 .item:before,
+    #design-content-x0039 .item:after {
+        position: absolute;
+        content: "";
+        width: 0;
+        height: 0;
+        border-width: 0;
+        border-style: solid;
+        border-color: white;
+        transition: all 0.4s ease, border-width 0s;
+    }
+    #design-content-x0039 .item:before {
+        left: -1px;
+        top: -1px;
+    }
+    #design-content-x0039 .item:hover:before {
+        width: 40%;
+        height: 40%;
+        border-width: 1px 0 0 1px;
+        border-radius: 2px 0 0 0;
+    }
+    #design-content-x0039 .item-blue:hover:before {
+        border-color: #1e73be;
+    }
+    #design-content-x0039 .item-green:hover:before {
+        border-color: green;
+    }
+    #design-content-x0039 .item:after {
+        right: -1px;
+        bottom: -1px;
+    }
+    #design-content-x0039 .item:hover:after {
+        width: 40%;
+        height: 40%;
+        border-width: 0 1px 1px 0;
+        border-radius: 0 0 2px 0;
+    }
+    #design-content-x0039 .item-blue:hover:after {
+        border-color: #1e73be;
+    }
+    #design-content-x0039 .item-green:hover:after {
+        border-color: green;
+    }
+</style>
+
+<div class="row design" data-design-code="x0039">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-2 col-12 text-lg-right text-left design-about">
+                <div class="design-about-title" title="x0039">Perfect Dark Hover Animation</div>
+                <div class="design-about-text">
+                    https://3dprintedparts.com/
+                </div>
+                <div class="design-about-tags">
+                    Tags:
+                    <br>
+                    <span class="design-about-tags-values">animation</span>
+                </div>
+            </div>
+
+            <div id="design-content-x0039" class="col-lg-10 col-12 design-content">
+                <div class="container-fluid">
+                    <div class="row justify-content-center">
+                        <div class="item item-blue"></div>
+                        <div class="item item-blue"></div>
+                        <div class="item item-blue"></div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="item item-green"></div>
+                        <div class="item item-green"></div>
+                        <div class="item item-green"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    //
+</script>
