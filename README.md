@@ -1,4 +1,4 @@
-# FiT
-Comps for FiT app.
+# FIT
+Comps for FIT app.
 
-[joedbns.github.io/FiT](https://joedbns.github.io/FiT)
+[joedbns.github.io/FIT](https://joedbns.github.io/FIT)

@@ -1,7 +1,7 @@
 {
-  "name": "FiT",
+  "name": "FIT",
   "version": "1.0.0",
-  "description": "Comps for FiT app.",
+  "description": "Comps for FIT app.",
   "main": "gulpfile.js",
   "dependencies": {
     "gulp": "^3.9.1"
@@ -15,12 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JoeDBNS/FiT.git"
+    "url": "git+https://github.com/JoeDBNS/FIT.git"
   },
   "author": "Joseph Davis <joedbns@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JoeDBNS/FiT/issues"
+    "url": "https://github.com/JoeDBNS/FIT/issues"
   },
-  "homepage": "https://github.com/JoeDBNS/FiT#readme"
+  "homepage": "https://github.com/JoeDBNS/FIT#readme"
 }
