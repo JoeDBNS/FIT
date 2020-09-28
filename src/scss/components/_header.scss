@@ -36,7 +36,7 @@
 		.navbar-toggler {
 			padding: 0.84rem .6rem 0.84rem 1rem;
 			color: $white;
-			font-size: .9rem;
+			font-size: .8rem;
 			border: 2px solid $brand;
 			border-radius: 0;
             transition: linear 0.3s all;
@@ -87,8 +87,8 @@
                 .nav-link {
                     padding: 10px 70px 10px 30px;
                     color: $brand;
-                    font-size: 1rem;
-                    line-height: 1rem;
+                    font-size: .9rem;
+                    line-height: .9rem;
                     transition: linear 0.05s all;
                     user-select: none;
                     &:focus, &:hover {
