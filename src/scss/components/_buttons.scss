@@ -4,6 +4,7 @@
     margin: auto;
     border: 1px solid $brand-third;
     border-radius: $radius-button;
+    font-size: .9rem;
     transition: linear 0.1s all, linear 0.025s transform;
     &:hover {
         background-color: $brand-third;
