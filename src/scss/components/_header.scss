@@ -33,6 +33,17 @@
                 user-select: none;
 			}
 		}
+		.navbar-controls {
+			button {
+				padding: 5px 12px 3px 12px;
+				margin-left: 5px;
+				svg {
+					position: relative;
+					top: -2px;
+					margin-right: 3px;
+				}
+			}
+		}
 		.navbar-toggler {
 			padding: 0.7rem .6rem 0.6rem 1rem;
 			color: $white;
