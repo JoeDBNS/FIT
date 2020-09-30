@@ -1,9 +1,11 @@
 .form-history {
-    padding-top: 14px;
+    padding-top: 10px;
     font-size: .925rem;
     .history-content {
         .history-status {
-            //
+            input {
+                width: auto;
+            }
         }
         .history-comment {
             margin-top: 26px;
@@ -11,10 +13,17 @@
     }
     .history-side {
         .history-time {
-            //
+            margin-top: 34px;
+            .time-date {
+                font-weight: bold;
+            }
+            .time-hour {
+                //
+            }
         }
         .history-user {
-            margin-top: 26px;
+            margin-top: 32px;
+            font-weight: bold;
         }
     }
     hr {
