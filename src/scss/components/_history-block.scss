@@ -5,10 +5,14 @@
         .history-status {
             input {
                 width: auto;
+                background-color: #ececec;
             }
         }
         .history-comment {
             margin-top: 26px;
+            textarea {
+                background-color: #ececec;
+            }
         }
     }
     .history-side {
