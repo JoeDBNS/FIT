@@ -101,3 +101,14 @@ input[type="radio"] {
 .label-text {
     margin-left: 0.25rem;
 }
+
+.input-set-required {
+    label::after {
+        content: "*";
+        position: relative;
+        left: 6px;
+        top: 2px;
+        font-size: .9rem;
+        color: #d40000;
+    }
+}
