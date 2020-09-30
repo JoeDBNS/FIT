@@ -20,7 +20,7 @@ body {
     min-height: 100%;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 3rem auto 55px;
+    grid-template-rows: 42px auto 55px;
     grid-template-areas:
         "header header header header"
         "main main main main"
@@ -45,4 +45,8 @@ a {
     color: $blue-dark;
     font-weight: 300;
 	transition: all 0.3s;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    color: #346480;
 }
