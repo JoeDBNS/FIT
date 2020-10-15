@@ -4,7 +4,7 @@ var autoprefixer = require('gulp-autoprefixer');
 
 gulp.task('sass', function() {
   return gulp.src('./src/scss/main.scss')
-    .pipe(sass.sync({outputStyle: 'compressed'}).on('error', sass.logError))
+    .pipe(sass.sync({outputStyle: 'nested'}).on('error', sass.logError))
     .pipe(autoprefixer({overrideBrowserslist: ['last 2 versions', '> 1%', 'Firefox ESR', 'not ie <= 8']}))
     .pipe(gulp.dest('./static/css'));
 });
